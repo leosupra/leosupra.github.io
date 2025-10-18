@@ -2158,3 +2158,22 @@ padding: unset;
 #tokenomics .section-title h2 {
   color: #ffffff;
 }
+
+/* ===== Responsive Hero Image Fix ===== */
+
+.for-mobile-frog-img {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .for-desktop-frog-img {
+    display: none;
+  }
+
+  .for-mobile-frog-img {
+    display: block;
+    text-align: center;
+  }
+}
+
+
